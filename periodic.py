@@ -1,9 +1,8 @@
-# from the following stack overflow post: https://stackoverflow.com/questions/2398661/schedule-a-repeating-event-in-python-3
 from threading import Timer, Lock
 
 class Periodic(object):
     """
-    A periodic task running in threading.Timerspy
+    A periodic task 
     """
 
     def __init__(self, interval, function, *args, **kwargs):
