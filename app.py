@@ -229,7 +229,7 @@ class WebsiteChecker(Frame):
         self.parent.destroy()    
 
 if __name__ == "__main__":
-    #messagebox.showwarning("Warning", "Sending requests to a website too frequently may result in being banned")
+    messagebox.showwarning("Warning", "Sending requests to a website too frequently may result in being banned")
 
     root = Tk()
     app = WebsiteChecker(root, True)
