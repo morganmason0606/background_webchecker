@@ -127,7 +127,7 @@ class WebsiteChecker(Frame):
         http_date = WebsiteChecker.get_http_date()
 
         # sending request with haeder
-        resp = requests.head(
+        resp = requests.get(
             url=url, 
             headers = {
                 "If-Modified-Since": http_date
